@@ -2,10 +2,11 @@ body {
 
     font-family: "Comic Sans MS";
     font-size: 12px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 170px;
+    margin-right: 170px;
     animation-name: alignement;
     animation-duration: 1s;
+
 
 }
 @keyframes alignement {
@@ -13,8 +14,8 @@ body {
         margin-left: -100%;
         margin-right: -100%;
     }to {
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 170px;
+    margin-right: 170px;
          }
 }
 
@@ -22,8 +23,20 @@ header {
 
     display: flex;
     justify-content: space-between;
-
+    color: #8d8d8d;
 }
+
+#contact ul {
+    text-align: right;
+    width: 200px;
+    list-style-type: none;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
 
 #photo {
     margin-top: 20px;
@@ -36,7 +49,8 @@ article {
 
     display: flex;
     justify-content: space-between;
-    flex-grow: 1;
+
+
 }
 
 
@@ -44,6 +58,21 @@ h2 {
     text-transform : uppercase;
     font-weight: bold;
 }
+
+h3 {
+
+    margin-left: 0px;
+    font-weight : normal;
+    width: 600px;
+    text-align: justify-all;
+
+}
+
+h4 {
+    text-align: right;
+    width: 200px;
+}
+
 
 #barre {
 
