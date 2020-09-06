@@ -1,89 +1,103 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
 body {
 
-    font-family: "Comic Sans MS";
-    font-size: 12px;
-    margin-left: 170px;
-    margin-right: 170px;
-    animation-name: alignement;
-    animation-duration: 1s;
-
+	margin-right: 150px;
+	margin-left: 150px;
 
 }
-@keyframes alignement {
-    from {
-        margin-left: -100%;
-        margin-right: -100%;
-    }to {
-    margin-left: 170px;
-    margin-right: 170px;
-         }
-}
 
-header {
+.template{
 
-    display: flex;
-    justify-content: space-between;
-    color: #8d8d8d;
-}
+    display: grid;
+    height: 100vh;
+    grid-row-gap: 10px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
 
-#contact ul {
-    text-align: right;
-    width: 200px;
-    list-style-type: none;
-}
+    "nav "
+    "header"
+    "section"
+    "footer"
+     
+    
+    
 
-h1 {
-    display: flex;
-    justify-content: center;
-}
-
-
-#photo {
-    margin-top: 20px;
-    width: 140px;
-    height:160px;
-}
-
-
-article {
-
-    display: flex;
-    justify-content: space-between;
+;
 
 
 }
 
+.navbar {
 
-h2 {
-    text-transform : uppercase;
+    grid-area: nav;
+
+
+}
+
+.header {
+    grid-area: header;
+    
+}
+
+.lead {
+
+    font-family: 'Indie Flower', cursive;
+}
+
+div > img {
+    width: 120px;
+    height: 150px;
+}
+
+
+.section {
+
+    grid-area: section;
+    font-family: lato;
+    text-align: justify;
+
+
+}
+
+h5 {
     font-weight: bold;
-}
 
-h3 {
-
-    margin-left: 0px;
-    font-weight : normal;
-    width: 600px;
-    text-align: justify-all;
+    color: #3c3a3a;
 
 }
+h5:hover {
 
-h4 {
-    text-align: right;
-    width: 200px;
+    transition: all 1s;
+    color: #d7d7d7;
+    padding: 4px;
+
 }
 
+.media > img {
 
-#barre {
+    width: 90px;
+    height: 50px;
 
-    background-color: #00b7ff;
-    height: 5px;
-    width: 300px;
 }
 
+.footer {
+    grid-area: footer;
+    height: 30px;
 
-footer{
-    display: flex;
-    justify-content: flex-end;
-    font-style: italic;
+}
+
+.footer-copyright {
+
+    font-family: 'Long Cang', cursive;
+
 }

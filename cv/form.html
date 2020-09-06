@@ -8,8 +8,6 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/0cd276fff8.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Long+Cang&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&family=Indie+Flower&display=swap" rel="stylesheet">
     <title>CV Mourad EL mehdaoui</title>
 </head>
 <body>
@@ -17,9 +15,9 @@
 <div class="template">
 
 
-<!--nav-->
+    <!--nav-->
 
-<div class="navbar">
+    <div class="navbar">
         <nav class="navbar w-100 fixed-top p-3 mr-auto navbar-dark bg-dark navbar-expand-lg navbar-light bg-light ">
             <a class="navbar-brand" href="#">CV</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,104 +27,68 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">ACCEUIL <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html">Acceuil <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">ABOUT <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#">CV <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">JEUX <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#">Jeux <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="form.html">CONTACT<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="form.html">Contact <span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
                 <a class="btn btn-secondary" href="download/CV.pdf"  role="button" target="_blank">Télécharger CV</a>
-            
+
             </div>
         </nav>
 
-</div>
-
-        <!--en tête-->
-
-    <div class="header ">
-
-        <div class="jumbotron jumbotron-fluid ">
-            <div class="container">
-                <div class="row">
-                <div class="col-5 text-center">
-                <img src="images/photo.jpg" alt="photo" class="img-fluide img-thumbnail">
-                </div>
-                    <ul class="lead columns-col-7 mb-0">
-                <li><p class="lead display-5 font-weight-bold text-muted">Developpeur Web et web mobile</p></li>
-                <li><p class="lead display-5">Mourad EL Mehdaoui</p></li>
-                <li><p class="lead display-6">16 bd camille St Saens</p></li>
-                <li><p class="lead display-6">Tel: 06 59 96 50 99</p></li>
-                <li><p class="lead display-6 mb-0">Mourad.elmehdaoui@hotmail.fr</p></li>
-                    </ul>
-                </div>
-                </div>
-        </div>
-
     </div>
 
-    <!--Corps-->
-    <div class="section bg-light">
+    <div class="container">
 
-        <section> <!--COMPETENCE TECHNIQUES-->
-        <div class="media">
-            <img src="images/language.jpg" class="align-self-center mr-3" alt="...">
-            <div class="media-body">
-                <h5 class="mt-0">COMPETENCE TECHNIQUE</h5>
-                <p class="mr-5 ext-justify" >Front End : HTLM/CSS, PHP ,JavaScript, Bootstrap <br>
-                    Back End : PHP, MySQL <br>
-                    Logiciel IDE : IntelliJ, Visual Code </p>
+
+    <form class="d-flex flex-column  p-3">
+        <fieldset >
+            <legend>CONTACT</legend>
+
+            <div class="form-group" >
+                <label for="nom">Entrez votre nom</label>
+                <input type="text" class="form-control" id="nom" placeholder="Nom .....">
+            </div> <div class="form-group">
+                <label for="prenom">Entrez votre prenom</label>
+                <input type="text" class="form-control" id="prenom" placeholder="Prénom .....">
             </div>
 
-</div>
-    </section>
-
-
-        <section>   <!--DIPLOMES ET FORMATION-->
-            <div class="media">
-                <img src="images/alt.png" class="align-self-center mr-3" alt="logo">
-                <div class="media-body">
-                    <h5 class="mt-0 text-color dark">DIPLOMES ET FORMATION</h5>
-                    <p class="text-justify">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                </div>
-
+            <div class="form-group">
+                <label for="email">Entrez votre mail</label>
+                <input type="email" class="form-control" id="email" placeholder="test@gmail.com">
             </div>
 
-        </section>
-
-
-
-            <section>   <!--EXPERIENCE PROFESSIONNEL-->
-                <div class="media">
-                    <img src="images/securinfor.png" class="align-self-center mr-3" alt="...">
-                    <div class="media-body">
-                        <h5 class="mt-0">EXPERIENCE PROFESSIONNEL</h5>
-
-                        <p class="mr-5 ext-justify">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                    </div>
-
-                </div>
-
-            </section>
-
-                <section>   <!--EXPERIENCE PROFESSIONNEL-->
-                    <div class="media">
-                        <img src="..." class="align-self-center mr-3" alt="...">
-                        <div class="media-body">
-                            <h5 class="mt-0">INTÉRÈTS</h5>
-                            <p class="mr-5 ext-justify">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                        </div>
-
-                    </div>
-
-                </section>
-    </div>
+            <div class="form-group">
+                <label for="selection">Une liste select</label>
+                <select id="selection" class="form-control">
+                    <option value="">Liste de choix...</option>
+                    <optgroup label="Recrutement">
+                        <option value="">Entreprise</option>
+                        <option value="">Intérim</option>
+                        <option value="">Autre</option>
+                    </optgroup>
+                    <optgroup label="Particulier">
+                        <option value="">Devis</option>
+                        <option value="">Autre</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="bio">Message</label>
+                <textarea class="form-control" id="bio" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary mb-3">Envoyer</button>
+        </fieldset>
+    </form>
+  </div>
 
     <!--Bas du site-->
     <div class="footer ">
@@ -179,7 +141,7 @@
             <!-- Footer Elements -->
 
             <!-- Copyright -->
-            <div class="footer-copyright text-center py-2" >© 2020 Copyright by Mourad EL mehdaoui
+            <div class="footer-copyright text-center py-2">© 2020 Copyright by Mourad EL mehdaoui
 
             </div>
             <!-- Copyright -->
