@@ -51,7 +51,7 @@ body {
 
 .lead {
 
-    font-family: 'Indie Flower', cursive;
+    font-family: Kaushan Script;
 }
 
 div > img {
@@ -63,7 +63,7 @@ div > img {
 .section {
 
     grid-area: section;
-    font-family: lato;
+    font-family: Kaushan Script;
     text-align: justify;
 
 
@@ -102,6 +102,3 @@ h5:hover {
 
 }
 
-.navbar-brand  {
-    font-family: 'Long Cang', cursive;
-}
