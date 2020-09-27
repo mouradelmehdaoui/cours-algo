@@ -76,7 +76,7 @@ body {
 .template.active .wrapper {
 
 
-    transform: rotate(10deg) scale(0.5) translate(-100%, -100%);;
+    transform: rotate(10deg) scale(0.5) translate(-100%, -100%);
 }
 
 
@@ -327,4 +327,14 @@ i {
     .regle {
         display: none;
     }
+
+    .template.active .wrapper {
+
+
+        transform: none;
+    }
+
+
+
+
 }
