@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css" />
+    <link href="../css/porte_folio.css" rel="stylesheet" type="text/css" />
+    <script src="../js/app.js" defer></script>
+    <script src="../js/script.js" defer></script>
+
+    <title>Dé Virtuel</title>
+
+</head>
+
+<body>
+
+
+
+<div class="template">
+    <!--EN TETE NAVBAR-->
+
+    <div class="navbar fixed-top ">
+
+        <div class="hamburger-menu">
+            <div class="bar">
+            </div>
+        </div>
+        <a class="download btn btn-dark" href="../download/CV.pdf"  role="button" target="_blank">Télécharger CV</a>
+    </div>
+
+    <div class="links">
+
+        <ul>
+
+            <li>
+                <a href="../html/acceuil.html">Acceuil</a>
+            </li>
+            <li>
+                <a href="../html/cv.html">CV</a>
+            </li>
+            <li>
+                <a href="../html/porte_folio.html">PORTE FOLIO</a>
+            </li>
+            <li>
+                <a href="../html/about.html">A propos de Moi</a>
+            </li>
+            <li>
+                <a href="../html/form.html">Contact</a>
+            </li>
+
+        </ul>
+
+
+    </div>
+
+
+    <!-- PANNEAU DU JEU -->
+    <div class="wrapper clearfix">
+
+        <!-- PANNEAU DU JOUEUR 1 -->
+        <div class="joueur-1-panel active">
+            <div class="nom-joueur" id="nom-1">Joueur 1</div>
+            <div class="score-joueur" id="score-1">43</div>
+            <div class="joueur-courant-box">
+                <div class="joueur-courant-label">En cours</div>
+                <div class="joueur-courant-score" id="encours-1">11</div>
+            </div>
+        </div>
+
+        <!-- PANNEAU DU JOUEUR 2 -->
+        <div class="joueur-2-panel">
+            <div class="nom-joueur" id="nom-2">Joueur 2</div>
+            <div class="score-joueur" id="score-2">22</div>
+            <div class="joueur-courant-box">
+                <div class="joueur-courant-label">En cours</div>
+                <div class="joueur-courant-score" id="encours-2">08</div>
+            </div>
+        </div>
+
+
+        <!-- LES BOUTTONS -->
+        <div class="bouttons">
+<div class="news">
+        <button class="btn-nouveau"><i class="ion-ios-plus-outline"></i>Nouveau Jeu</button>
+</div>
+        <div class="lancer">
+        <button class="btn-lancer"><i class="ion-ios-loop"></i>LanceZ le Dé</button>
+        </div>
+
+        <div class="commuter">
+        <button class="btn-commuter"><i class="ion-ios-download-outline"></i>Commutez</button>
+        </div>
+
+        <div class="lancer-de">
+        <img src="../images/images/de-2.png" alt="Le Dé" class="de">
+        </div>
+
+
+    </div>
+        <!-- L'IMAGE DU DE -->
+        <!--regle du jeux-->
+        <div class="regle">
+        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModalLong">
+            Règle du jeux
+        </button>
+        </div>
+        <!-- Presentation du jeux -->
+
+</div>
+
+
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="exampleModalLongTitle">Présentation du jeu</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body ">
+                    <p>I.	Le jeu est à 2 joueurs, Joueur 1 et Joueur 2, jouant alternativement en séries en cliquant sur le bouton « LANCEZ LE DE ».</p>
+                    <p>II.	A chaque tour, un joueur lance un dé autant de fois qu'il le souhaite. Chaque résultat est ajouté à son score EN COURS.</p>
+                    <p>III.	MAIS, si le joueur obtient un 1 au cours d’une série de lancer, tout son score EN COURS est perdu, et doit obligatoirement passer la main au joueur concurrent.</p>
+                    <p>IV.	Le joueur peut choisir de conserver son score EN COURS avec le bouton « COMMUTEZ », ce qui a pour effet de l’ajouté à son score GLOBAL, mais dans ce cas, il doit passer la main à son concurrent.</p>
+                    <p>V.	Le premier joueur à atteindre 100 points sur le score GLOBAL gagne la partie.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-dark" data-dismiss="modal">Are you Ready :p ?</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+
+
+
+
+<link rel="stylesheet" href="../../main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/0cd276fff8.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+
+
+
+</body>
+
+</html>

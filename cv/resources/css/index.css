@@ -1,0 +1,18 @@
+@import "../../main.css";
+
+.loader-container{
+    background-color: #1f1e1f;
+    cursor: wait;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    opacity: 1;
+    transition: 4s opacity;
+}
+.loader{
+
+    margin-top: 50vh;
+}

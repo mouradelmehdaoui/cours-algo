@@ -1,0 +1,138 @@
+@import "../../main.css";
+
+
+form {
+
+    text-align: center;
+    height: 550px;
+    width: 400px;
+    font-weight: bold;
+    padding: 10px;
+    opacity: 0.8;
+    background: white;
+    position: absolute;
+    top:150px;
+    left:35%;
+   font-family: Kaushan Script;
+    box-shadow: 17px 17px 0px -2px rgba(0,0,0,0.69);
+
+}
+
+
+.formulaire {
+
+    display: grid;
+    padding-top: 40px;
+    grid-template-rows: 20% 10% 10% 50% 10%;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+    grid-template-areas:
+
+    "titre titre"
+    "nom nom"
+    "email email"
+    "com com"
+    "envoyer envoyer";
+
+
+}
+
+.nom {
+    grid-area: nom;
+
+}
+.titre {
+    grid-area: titre;
+
+}
+.email{
+
+    grid-area: email;
+}
+.com {
+    grid-area: com;
+
+}
+.envoyer {
+    grid-area: envoyer;
+
+}
+
+
+
+input {
+
+
+    text-align: left;
+    border: 0;
+    border-bottom: 1px solid #585a5b;
+    border-radius: 0;
+    outline: 0;
+    background-color: transparent;
+
+}
+
+label {
+
+    margin-right: 30px;
+}
+
+#email, #nom {
+
+    width: 250px;
+}
+
+@media only screen and (max-width: 600px){
+
+
+    form {
+
+        text-align: left;
+        height: 225px;
+        width: 200px;
+        font-weight: bold;
+        padding: 10px;
+        opacity: 0.8;
+        background-color: #ffffff;
+        top: 45px;
+        left: 0;
+        box-shadow: none;
+        font-family: Kaushan Script;
+        display: inline-block;
+
+
+
+    }
+
+.formulaire {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+    label {
+
+        margin-right: 15px;
+    }
+
+    #email, #nom {
+
+        width: 125px;
+    }
+
+
+ textarea {
+
+     width: 180px;
+ }
+
+.envoyer {
+
+    width: 50%;
+}
+
+
+
+
+}
