@@ -4,14 +4,14 @@
 
 .diplome {
 
-    color: #ffffff;
+    color: white!important;
     left:50px;
     top:100px;
 
 }
 
 .experience {
-    color: #ffffff;
+    color: white!important;
     left:50px;
     top :
         350px;
@@ -19,13 +19,15 @@
 }
 
 .centre{
-    color: #ffffff;
+    color: white!important;
     left:50px;
     top :
             600px;
 
 }
-
+h2 {
+    color: white!important;
+}
 /* carousel */
 #quote-carousel
 {
