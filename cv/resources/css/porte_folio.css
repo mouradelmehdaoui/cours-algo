@@ -5,7 +5,7 @@
    ++++ STYLE GENERAL
    ++++++++++++++++++++++++++++++++++++++++ */
 
-@import "../../main.css";
+
 @import url('https://fonts.googleapis.com/css?family=Girassol|Lobster|Lato&display=swap');
 * {
     margin: 0;
@@ -201,6 +201,12 @@ i {
 
         background-color: #585a5b;
     }
+
+    .float-right {
+        float: left !important;
+    }
+
+
     .wrapper  {
 
         display: flex;
@@ -223,8 +229,9 @@ i {
         background-color: white;
         display: block;
         border: solid 3px black;
-
+        margin-top: 300px;
     }
+
 
     .joueur-2-panel {
         padding: 0;
@@ -271,15 +278,7 @@ i {
         text-align: center;
     }
 
-    .active .nom-joueur::after {
-        font-family: Lato;
-        content: '\2022';
-        font-size: 47px;
-        position: absolute;
-        color: #EB4D4D;
-        top: -7px;
-        left: 180px;
-    }
+
 
     button {
 
@@ -328,11 +327,7 @@ i {
         display: none;
     }
 
-    .template.active .wrapper {
 
-
-        transform: none;
-    }
 
 
 

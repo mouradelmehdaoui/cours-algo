@@ -11,50 +11,53 @@
 <body>
 
 
-
-<div class="template">
-    <!--EN TETE NAVBAR-->
+<!--EN TETE NAVBAR-->
 
 
+<!--EN TETE NAVBAR-->
 
-    <div class="navbar position-fixed ">
+<div class="navbar">
+    <nav class="navbar w-100 fixed-top p-3 mr-auto navbar-dark bg-dark navbar-expand-lg navbar-light bg-light ">
+        <a class="navbar-brand" href="../html/cv.html">CV</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <div class="hamburger-menu ">
-            <div class="bar">
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="../html/acceuil.html">ACCEUIL <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="../html/about.html">ABOUT <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="../html/porte_folio.html">PORTE FOLIO <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a  class="nav-link" href="../html/form.html">CONTACT<span class="sr-only">(current)</span></a>
+                </li>
+
+            </ul>
+
+
+            <div class="form-inline my-0 my-lg-0">
+
+                <a class=" btn btn-secondary" href="../download/CV.pdf"  role="button" target="_blank">Télécharger CV</a>
             </div>
+
         </div>
-        <a class="download btn btn-dark" href="../download/CV.pdf" role="button" target="_blank">Télécharger CV</a>
-
-
-    <div class="links">
-
-        <ul>
-
-
-            <li>
-                <a href="../html/acceuil.html">Acceuil</a>
-            </li>
-            <li>
-                <a href="../html/cv.html">CV</a>
-            </li>
-            <li>
-                <a href="../html/porte_folio.html">PORTE FOLIO</a>
-            </li>
-            <li>
-                <a href="../html/about.html">A propos de Moi</a>
-            </li>
-            <li>
-                <a href="../html/form.html">Contact</a>
-            </li>
-
-        </ul>
-
-    </div>
+    </nav>
 
 </div>
 
+    </div> <!-- FIN NAVBAR-->
+
+    <!-- CAROUSEL CV -->
     <div class="carousel">
-    <div class="diplome container position-absolute ">
+    <div class="diplome container">
         <div class="row">
             <div class='col-md-offset-2 col-md-8 text-center'>
                 <h2>DIPLOMES</h2>
@@ -119,14 +122,14 @@
                     </div>
 
                     <!-- Carousel Buttons Next/Prev -->
-                    <a data-slide="prev" href="#quote-carousel-diplome" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+                    <a data-slide="prev" href="#quote-carousel-diplome" class="left carousel-control "><i class="fa fa-chevron-left "></i></a>
                     <a data-slide="next" href="#quote-carousel-diplome" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="experience container position-absolute ">
+    <div class="experience container">
         <div class="row">
             <div class='col-md-offset-2 col-md-8 text-center'>
                 <h2>EXPERIENCE PROFESIONNELLE </h2>
@@ -185,7 +188,7 @@
         </div>
     </div>
 
-    <div class="centre container position-absolute ">
+    <div class="centre container">
         <div class="row">
             <div class='col-md-offset-2 col-md-8 text-center'>
                 <h2>CENTRES D'INTERET </h2>
@@ -260,12 +263,10 @@
     </div>
     <!--DIV FIN CAROUSEL-->
 
-</div>
-<!--DIV FIN TEMPLATE-->
 
 
 
-<link rel="stylesheet" href="../../main.css">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

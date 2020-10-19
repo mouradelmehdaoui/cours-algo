@@ -1,34 +1,27 @@
-@import "../../main.css";
+body {
 
-
-
-.diplome {
-
-    color: white!important;
-    left:50px;
-    top:100px;
-
+    background: #3d4451;
 }
 
-.experience {
-    color: white!important;
-    left:50px;
-    top :
-        350px;
 
-}
-
-.centre{
-    color: white!important;
-    left:50px;
-    top :
-            600px;
-
-}
 h2 {
-    color: white!important;
+    color: #070707 !important;
 }
+
+.form-inline {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -ms-flex-align: center;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+
 /* carousel */
+
+
 #quote-carousel
 {
     padding: 0 10px 30px 10px;
@@ -94,21 +87,7 @@ h2 {
     margin-right: 10px;
 }
 
-.template.active .carousel{
 
-
-    box-shadow: 60px -16px rgba(0,0,0,0.09);
-    transform: perspective(1000px) rotateY(-10deg) translateZ(310px) scale(0.5);
-    left: 8%;
-}
-
-.template.active .links {
-    height: 79vh;
-    width: 25%;
-    left: 0;
-    display: block;
-    margin-top: -60px;
-}
 
 
 
@@ -121,65 +100,3 @@ h2 {
 
 
 
-
-@media only screen and (max-width: 600px) {
-
-
-
-
-  .carousel {
-
-      position: static;
-      margin-top: 0;
-
-  }
-
-    .diplome {
-
-        color: #ffffff;
-        left:50px;
-        top:-250px;
-
-    }
-
-    .experience {
-        color: #ffffff;
-        left:50px;
-        top :
-                0px;
-
-    }
-
-    .centre{
-        color: #ffffff;
-        left:50px;
-        top :
-                250px;
-
-    }
-
-    .navbar {
-
-        top: 0;
-    }
-
-    .template.active .carousel{
-
-        animation: none;
-        transform:none;
-        position: relative;
-        margin-top: 260px;
-        box-shadow: none;
-
-    }
-
-    .template.active .links {
-        height: 79vh;
-        width: 25%;
-        left: 0;
-        display: block;
-        margin-top: 0px;
-    }
-
-
-}

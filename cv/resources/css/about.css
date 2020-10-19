@@ -1,15 +1,49 @@
-@import "../../main.css";
-
 
 
 /*==========================================
      Our Skills Style
   ========================================= */
 
-.template {
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
 
 
-    background-color: white;
+}
+
+.form-inline {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -ms-flex-align: center;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.jumbotron {
+
+    margin-left: 19rem;
+    margin-right: 19rem;
+    font-family: 'Raleway',sans-serif!important;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.row {
+
+    font-family: 'Open Sans', sans-serif;
+}
+.profile-info {
+    color: #3d4451;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #151515;
 }
 
 
@@ -89,19 +123,11 @@
     text-transform: uppercase;
     margin-bottom: 10px;
 }
-.template.active .links a {
 
-    color: black;
-    font-weight: bold;
-    padding: 10px 0;
-    font-size: 17px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    transition: 0.3s;
-    font-family: 'Raleway',sans-serif!important;
-    display: block;
-    text-align: center;
-
-
-
+@media screen and (max-width: 600px) {
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
+    .download {
+        margin-left: 0;
+    }
 }
