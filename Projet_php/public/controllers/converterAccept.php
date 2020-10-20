@@ -24,7 +24,7 @@ function converter ($saisie)
 
     } else {
 
-        $_SESSION['message_erreur'] = $_SESSION['message_erreur'] . " ";
+        $_SESSION['message_erreur'] = $_SESSION['message_erreur'] . " Attention à votre saisie, un nombre est attentu";
 
         return $_SESSION['message_erreur'];
     }
